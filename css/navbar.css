@@ -1,6 +1,6 @@
 *{
     margin:0px;
-    font-family: Poppins ;
+    font-family: Roboto;
 }
 
 body{
@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    height: 100px;
+    height: 150px;
     width: auto;
     display: flex;
     align-items: center;
@@ -33,11 +33,27 @@ header{
 
 .left-text{
     padding: 10px;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
     color: #0f0f0f;
 }
 
 .right-section{
     display: flex;
+    
+}
+
+.right-section .signin{
+    background-color: transparent;
+    border: 1px solid #a2a2a2;
+    border-radius: 2px;
+    padding: 3px 15px;
+    margin-right: 10px;
+}
+
+.right-section .signup{
+    background-color: transparent;
+    border: 1px solid #a2a2a2;
+    border-radius: 2px;
+    margin-right: 35px;
 }
