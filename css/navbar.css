@@ -107,13 +107,13 @@ header{
 }
 
 .page-content .lname{
-    font-size: 130px;
+    font-size: 110px;
     color: rgba(248, 248, 248, 1);
     font-weight: 500;
     position: absolute;
     font-family: 'Yesteryear', cursive;
     z-index: 3;
-    top: 200px;
+    top: 220px;
 }
 
 .page-content .role{
@@ -122,7 +122,27 @@ header{
     font-weight: 500;
     position: absolute;
     z-index: 3;
-    top:350px;
-    right:340px
+    top:340px;
+    right:390px
 }
 
+.page-content-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-content-buttons button{
+    background-color: #fc5b3f;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    padding: 10px 40px;
+    font-size: 18px;
+    margin: 10px ;
+    color: rgba(248, 248, 248, 1);
+    transition: 0.15s;
+}
+
+.page-content-buttons button:hover{
+    background-color:#fc3636;
+}
