@@ -8,26 +8,28 @@ body{
     height: 100vh;
     background-size: cover;
     background-image: url(../Meteor.svg);
+    position: relative;
 }
 
 header{
-    height: 150px;
+    height: 80px;
     width: auto;
     display: flex;
     align-items: center;
-    background-color:#E5E5E5;
+    background-color:#0f0f0f;
     justify-content: space-between;
 }
 
 .left-section{
     display: flex;
     align-items: center;
+    height: 80px;
 }
 
 
 .logo{
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     margin: 50px 60px;
 }
 
@@ -35,25 +37,62 @@ header{
     padding: 10px;
     font-size: 18px;
     font-weight: 700;
-    color: #0f0f0f;
+    color: rgba(248, 248, 248, 1);
+    margin: 12px;
 }
+
+.left-text:hover{
+    cursor:pointer;
+}
+
 
 .right-section{
     display: flex;
-    
+    width: 250px;
 }
 
 .right-section .signin{
     background-color: transparent;
-    border: 1px solid #a2a2a2;
+    border: none;
     border-radius: 2px;
     padding: 3px 15px;
     margin-right: 10px;
+    font-size:16px;
+    font-weight: 700;
+    color: rgba(248, 248, 248, 1);
+}
+
+.right-section .signin:hover{
+    cursor: pointer;
+    color: gray ;
 }
 
 .right-section .signup{
     background-color: transparent;
-    border: 1px solid #a2a2a2;
+    border: none;
     border-radius: 2px;
     margin-right: 35px;
+    font-size:18px;
+    font-weight: 700;
+    color: rgba(248, 248, 248, 1);
+}
+
+.right-section .signup:hover{
+    cursor: pointer;
+    color: gray ;
+}
+
+.page-content{
+    position: absolute;
+    top: 25%;
+    left: 20px;
+    flex-direction: column;
+    display: flex;
+}
+
+.page-content p{
+    font-size: 70px;
+    color: rgba(248, 248, 248, 1);
+    font-weight: 900;
+    width: 700px;
 }
